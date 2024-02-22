@@ -1,0 +1,67 @@
+.overlay {
+    height: 100vh;
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 9999;
+    transition: width 1.2s ease;
+    overflow-x: hidden;
+}
+
+.nav-links a {
+    min-width: 150px;
+}
+
+.nav-links a {
+    font-size: 30px;
+    transition:1.2s ease;
+}
+.nav-links a:hover {
+    transform: translateX(30px);
+}
+.overlay.aktiv {
+    width: 100%;
+}
+
+.close-icon {
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.nav-links {
+    height: 100%;
+}
+
+.pm {
+    top: 6% !important;
+    left: 6% !important;
+}
+
+.qa {
+    top: 6% !important;
+    left: 31% !important;
+}
+
+.ui {
+    left:42% !important;
+    top: 6%;
+}
+
+.articles .pm {
+    top: 6% !important;
+    left: 6% !important;
+}
+
+.articles .qa {
+    top: 6% !important;
+    left: 40% !important;
+}
+
+.articles .ui {
+    left:54% !important;
+    top: 6%;
+}

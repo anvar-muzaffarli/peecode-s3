@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Blog1",
+        "body": "meqale1",
+        "image": "/assets/images/blogs/blog-1.png",
+        "yayinlanma_tarixi": "27 Noyabr 2023"
+    },
+    {
+        "title": "Blog2",
+        "body": "meqale2",
+        "image": "/assets/images/blogs/blog-2.png",
+        "yayinlanma_tarixi": "28 Noyabr 2023"
+    }
+    ,
+    {
+        "title": "Blog3",
+        "body": "meqale3",
+        "image": "/assets/images/blogs/blog-3.png",
+        "yayinlanma_tarixi": "29 Noyabr 2023"
+    },
+    {
+        "title": "Blog4",
+        "body": "meqale4",
+        "image": "/assets/images/blogs/blog-4.png",
+        "yayinlanma_tarixi": "30 Noyabr 2023"
+    },
+    
+    {
+        "title": "Blog5",
+        "body": "meqale3",
+        "image": "/assets/images/blogs/blog-3.png",
+        "yayinlanma_tarixi": "29 Noyabr 2023"
+    },
+    {
+        "title": "Blog6",
+        "body": "meqale6",
+        "image": "/assets/images/blogs/blog-6.png",
+        "yayinlanma_tarixi": "1 Dekabr 2023"
+    }
+    
+]
