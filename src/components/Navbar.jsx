@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import { FaBarsStaggered } from "react-icons/fa6";
 import { IoClose, IoCloseCircle } from "react-icons/io5";
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -27,7 +27,7 @@ const Navbar = () => {
         <IoCloseCircle onClick={overlayMenyunuBagla} className='text-white close-icon position-absolute' />
 
         <nav className="nav-links d-flex flex-column justify-content-center align-items-center gap-2">
-            <a href="" className='nav-link text-white'>What we do</a>
+            <Link to="/" className='nav-link text-white'>What we do</Link>
             <a href=""className='nav-link text-white' >Career</a>
             <a href="" className='nav-link text-white'>Contact</a>
             <a href="" className='nav-link text-white'>Blog</a>
@@ -36,9 +36,9 @@ const Navbar = () => {
 
     <nav className="navbar navbar-expand-lg">
   <div className="container">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="/">
         <img src="/assets/images/logo.svg" alt="Solmaz Rzali" />
-    </a>
+    </Link>
     <button onClick={overlayMenyunuAc} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <FaBarsStaggered />
 
@@ -46,18 +46,18 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">What we do</a>
+          <Link className="nav-link" aria-current="page" to="/">What we do</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Career</a>
-        </li>
-
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <Link className="nav-link" to="/kariyera">Career</Link>
         </li>
 
         <li className="nav-item">
-          <a className="nav-link" href="#">Blog</a>
+          <Link className="nav-link" to="/bizimle-elaqe">Contact</Link>
+        </li>
+
+        <li className="nav-item">
+          <Link className="nav-link" to="/bloqlar">Blog</Link>
         </li>
        
       </ul>

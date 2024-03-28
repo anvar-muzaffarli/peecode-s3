@@ -1,0 +1,39 @@
+.banner {
+    background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.top-l {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+.bottom-l {
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+
+}
+
+.yellow-circle {
+    position: absolute;
+    right: 40px;
+}
+
+
+.red-circle {
+    position: absolute;
+    right: 100px !important;
+    top: 30px !important;
+
+}
+
+.bottom-right {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+
+}

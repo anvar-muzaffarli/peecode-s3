@@ -65,3 +65,32 @@
     left:54% !important;
     top: 6%;
 }
+
+.form {
+    width: 503px;
+    height: 573px;
+}
+
+.form-paraqraf {
+    color:#f1efef;
+}
+
+
+.send-btn {
+    background-color: #4EBA85;
+    color:#fff;
+    width: 148px;
+    height: 56px;
+}
+.form ::placeholder {
+    color: #dedede;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.meqale-img {
+    width: 100%;
+    height: 159px;
+}
